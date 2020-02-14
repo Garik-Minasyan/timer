@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(195, 195, 155);
+}
+#clockDiv {
+    width: 480px;
+    height: 160px;
+    border: 3px solid black;
+    background-color: rgb(216, 162, 63);
+    margin-left: 30%;
+    margin-top: 150px;
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.numDiv {
+    width: 80px;
+    height: 60px;
+    background-color: rgb(65, 67, 139);
+    color: mistyrose;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.divstart {
+    width: 150px;
+    height: 60px;
+    background-color: rgb(20, 54, 88);
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.divstart:hover {
+    background-color: rgb(216, 162, 63);
+    color: black;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.startstopdiv{
+    width: 550px;
+    display: flex;
+    margin-left: 490px;
+}
+
+.divdatebig{
+    width: 250px;
+    display: flex;
+
+}
+
+.divdate {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(20, 54, 88);
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 22px;
+    margin: 10px;
+    border-radius: 6px;
+
+}
+.info {
+    width: 500px;
+    height: 60px;
+    background-color: rgb(20, 54, 88);
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 22px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
